@@ -6,7 +6,7 @@
   <link href="https://ricky-g.github.io/atom.xml" rel="self"/>
   
   <link href="https://ricky-g.github.io/"/>
-  <updated>2022-07-25T12:18:30.521Z</updated>
+  <updated>2022-07-27T11:56:58.314Z</updated>
   <id>https://ricky-g.github.io/</id>
   
   <author>
@@ -17,22 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://ricky-g.github.io/2022/07/25/hello-world/"/>
-    <id>https://ricky-g.github.io/2022/07/25/hello-world/</id>
-    <published>2022-07-25T11:57:53.120Z</published>
-    <updated>2022-07-25T12:18:30.521Z</updated>
+    <title>Hello World 👋</title>
+    <link href="https://ricky-g.github.io/2022/07/27/1.hello-world/"/>
+    <id>https://ricky-g.github.io/2022/07/27/1.hello-world/</id>
+    <published>2022-07-26T12:00:00.000Z</published>
+    <updated>2022-07-27T11:56:58.314Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate <span class="built_in">test</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>After sitting on this for a long time and wanting to blog &#x2F; write down my thoughts, I’ve finally got my act together and started this. There were so many times I was asked some very good questions which I am sure not just the person asking me but a lot more move would have been interested in knowing the answer&#x2F;solution&#x2F;thoughts around the matter.  This is a way to write about that and help the wider community who are searching for similar solutions.</p><p>I regularly answer in Stack Overflow and in some cases I wrote a question and answered it myself just incase some one was looking for something similar, that wasn’t really the ideal platform to do that. There have been so many times that going through and reading other people’s blogs have helped me and unlocked me in problems that I was stuck with; this is a in a way trying to give back to the community and helping people that are on the look out for a solution for a similar problem.</p><h2 id="What-to-use-to-power-the-blog"><a href="#What-to-use-to-power-the-blog" class="headerlink" title="What to use to power the blog"></a>What to use to power the blog</h2><p>There were so many choices out there when it came to what frameworks and libraries to use to build the blog and what to use to host the blog.</p><h3 id="My-requirements-when-it-came-to-building-were-simple"><a href="#My-requirements-when-it-came-to-building-were-simple" class="headerlink" title="My requirements when it came to building were simple"></a>My requirements when it came to building were simple</h3><ul><li>Easy to author posts</li><li>Easy to build</li><li>Easy to maintain</li><li>Most customizations (eg: search, ads, tags, categories etc) should come out of the box</li></ul><h3 id="My-requirements-when-it-came-to-hosting-were-even-simpler"><a href="#My-requirements-when-it-came-to-hosting-were-even-simpler" class="headerlink" title="My requirements when it came to hosting were even simpler"></a>My requirements when it came to hosting were even simpler</h3><ul><li>Has to be free</li><li>Has to be able to handle ‘some’ level of load</li><li>Easy to CI&#x2F;CD</li></ul><h3 id="Main-choices-here-boiled-down-to"><a href="#Main-choices-here-boiled-down-to" class="headerlink" title="Main choices here boiled down to:"></a>Main choices here boiled down to:</h3><ul><li><a href="https://github.com/OrchardCMS/OrchardCore">Orchard CMS</a></li><li><a href="https://github.com/gohugoio/hugo">Hugo</a></li><li><a href="https://github.com/TryGhost/Ghost">Ghost</a></li><li><a href="https://jekyllrb.com/docs/github-pages/">Jekyll With Github Pages</a></li><li><a href="https://github.com/hexojs/hexo">Hexo</a></li></ul><p>All the options were good, I really liked Hugo, it was so easy to create a site. But all of them were geared towards creating a CMS &#x2F; generic site.  I was looking for something that had all the things needed for a blog out of the box with out having to grab lots of plugins or write something custom.</p><p>Jekyll and GitHub pages were really good, it nailed most of the things, but I didn’t really want to go down the road of learning Jekyll just to host a blog. This left one and Hexo fit my requirements beautifully. It was a dedicated Javascript framework that has all the things I was looking for out of the box and it had <a href="https://hexo.io/themes/">360+ themes available all community built and free</a>.</p><p>One thing I loved about Hexo is the fact its builds the source to a static site and you can use GitHub to host the static site and use <a href="https://hexo.io/docs/github-pages">GitHub Actions</a> to build the static site from source.</p><p>This is what I went with in the end, Hexo to build the blog.  I write everything in markdown files and Hexo builds it out into a nice static site and I host it using <a href="https://github.com/Ricky-G/ricky-g.github.io">GitHub pages as a public repo</a></p><p>There are some <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits">limits of hosting with GitHub Pages</a>, the main one is the 100GB of bandwidth as a soft limit.  Since this is just a static site 100GB should be plenty but if and when it comes to that I will look at putting a CDN in front.</p><h2 id="Final-Result"><a href="#Final-Result" class="headerlink" title="Final Result"></a>Final Result</h2><ul><li><a href="https://github.com/hexojs/hexo">Hexo</a> to build the blog into a static site</li><li><a href="https://github.com/ppoffice/hexo-theme-icarus">Icarus</a> theme</li><li><a href="https://pages.github.com/">GitHub Pages</a> to host the site</li><li><a href="https://bulma.io/">Bulma</a> to help enrich the markdown files with styling</li></ul>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;p&gt;After sitting on this for a long time and wanting to blog &amp;#x2F; write down my thoughts, I’ve finally got my act together and started thi</summary>
       
     
     
     
+    <category term="Blog" scheme="https://ricky-g.github.io/categories/Blog/"/>
+    
+    
+    <category term="Hexo" scheme="https://ricky-g.github.io/tags/Hexo/"/>
+    
+    <category term="Personal" scheme="https://ricky-g.github.io/tags/Personal/"/>
+    
+    <category term="Blog" scheme="https://ricky-g.github.io/tags/Blog/"/>
     
   </entry>
   
