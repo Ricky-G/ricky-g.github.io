@@ -6,7 +6,7 @@
   <link href="https://clouddev.blog/atom.xml" rel="self"/>
   
   <link href="https://clouddev.blog/"/>
-  <updated>2022-09-16T11:27:57.402Z</updated>
+  <updated>2022-12-02T10:16:35.983Z</updated>
   <id>https://clouddev.blog/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Azure Logic Apps Timeout</title>
+    <link href="https://clouddev.blog/Azure-Logic-Apps/azure-logic-apps-timeout/"/>
+    <id>https://clouddev.blog/Azure-Logic-Apps/azure-logic-apps-timeout/</id>
+    <published>2022-10-19T11:00:00.000Z</published>
+    <updated>2022-12-02T10:16:35.983Z</updated>
+    
+    <content type="html"><![CDATA[<p>Recently I got pulled into a production incident where a logic app was running for a long time (long time in this scenario was &gt; 10 minutes), but the intention from the dev crew was they wanted this to time out in 60 seconds.  These logic apps were a combination of HTTP triggers and Timer based.</p><h2 id="Logic-App-Default-Time-Limits"><a href="#Logic-App-Default-Time-Limits" class="headerlink" title="Logic App Default Time Limits"></a>Logic App Default Time Limits</h2><p>First things to keep in mind are some default limits.</p><ol><li><p>If its a HTTP based trigger the <a href="https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-limits-and-config?tabs=consumption,azure-portal#timeout-duration">default timeout is around 3.9 minutes</a></p></li><li><p>For most others the <a href="https://learn.microsoft.com/en-us/azure/logic-apps/edit-app-settings-host-settings?tabs=azure-portal#run-duration-and-history-retention">default max run duration of a logic app is 90 days</a></p></li></ol><h2 id="Ways-To-Change-Defaults"><a href="#Ways-To-Change-Defaults" class="headerlink" title="Ways To Change Defaults"></a>Ways To Change Defaults</h2><p>With that, here are a couple of quick ways to make sure your Logic App times out and terminates within the time frame you set. Lets say if we want our Logic App to run no more than 60 seconds at max then:</p><span id="more"></span><ol><li>You can change the setting <a href="https://learn.microsoft.com/en-us/azure/logic-apps/edit-app-settings-host-settings?tabs=azure-portal#run-duration-and-history-retention#:~:text=Runtime.Backend.FlowRunTimeout">Runtime.Backend.FlowRunTimeout</a> from the default 90 days to 60 seconds</li></ol><blockquote><ul><li>PRO: This will make sure that the Logic App runs for a maximum of 60 seconds only</li><li>CON: However this will apply to all the Logic Apps in the host&#x2F;tenant, meaning if you had 15 logic apps then all 15 will have the 60 second limit</li></ul></blockquote><ol start="2"><li>Have a branch with in the Logic App itself to control the timeout (shown in the below diagram)</li></ol><blockquote><ul><li>PRO: You have full control of timeout per Logic App, so some can have 30 second time outs while others 60 seconds etc</li><li>CON: There will be an extra branch&#x2F;logic in your logic app</li></ul></blockquote><h2 id="Time-Out-Branch-In-Logic-App"><a href="#Time-Out-Branch-In-Logic-App" class="headerlink" title="Time-Out Branch In Logic App"></a>Time-Out Branch In Logic App</h2><p>Below is how a potential timeout out setting in a Logic App could look like.  You create a “Delay” branch and set the desired time limit, in the example below its 2 minutes so if the other flow takes longer than two minutes then the delay will finish, logic app will be terminated and a cancelled status will be returned to the user in the below example.  Shout out to my colleague <a href="https://www.linkedin.com/in/johnbilliris">John B</a> for this awesome idea.</p><p><img src="/Azure-Logic-Apps/azure-logic-apps-timeout/logic-apps-timeout.png" alt=" " title="Single Threaded Container Apps"></p><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul><li>Main image <a href="https://azure.microsoft.com/en-us/products/logic-apps/">was taken from the Azure site</a></li><li>Thumbnail image <a href="https://azure.microsoft.com/svghandler/logic-apps/?width=1280&height=720">was taken from Azure SVG icons</a></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Recently I got pulled into a production incident where a logic app was running for a long time (long time in this scenario was &amp;gt; 10 minutes), but the intention from the dev crew was they wanted this to time out in 60 seconds.  These logic apps were a combination of HTTP triggers and Timer based.&lt;/p&gt;
+&lt;h2 id=&quot;Logic-App-Default-Time-Limits&quot;&gt;&lt;a href=&quot;#Logic-App-Default-Time-Limits&quot; class=&quot;headerlink&quot; title=&quot;Logic App Default Time Limits&quot;&gt;&lt;/a&gt;Logic App Default Time Limits&lt;/h2&gt;&lt;p&gt;First things to keep in mind are some default limits.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;If its a HTTP based trigger the &lt;a href=&quot;https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-limits-and-config?tabs=consumption,azure-portal#timeout-duration&quot;&gt;default timeout is around 3.9 minutes&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For most others the &lt;a href=&quot;https://learn.microsoft.com/en-us/azure/logic-apps/edit-app-settings-host-settings?tabs=azure-portal#run-duration-and-history-retention&quot;&gt;default max run duration of a logic app is 90 days&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;Ways-To-Change-Defaults&quot;&gt;&lt;a href=&quot;#Ways-To-Change-Defaults&quot; class=&quot;headerlink&quot; title=&quot;Ways To Change Defaults&quot;&gt;&lt;/a&gt;Ways To Change Defaults&lt;/h2&gt;&lt;p&gt;With that, here are a couple of quick ways to make sure your Logic App times out and terminates within the time frame you set. Lets say if we want our Logic App to run no more than 60 seconds at max then:&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Azure Logic Apps" scheme="https://clouddev.blog/categories/Azure-Logic-Apps/"/>
+    
+    
+    <category term="Azure" scheme="https://clouddev.blog/tags/Azure/"/>
+    
+    <category term="Azure Logic Apps" scheme="https://clouddev.blog/tags/Azure-Logic-Apps/"/>
+    
+  </entry>
   
   <entry>
     <title>Create A Multi User Experience For Single Threaded Applications Using Azure Container Apps</title>
