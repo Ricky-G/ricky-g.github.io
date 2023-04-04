@@ -35,11 +35,11 @@ https://clouddev.blog/tags/Azure-Policy/
 https://clouddev.blog/categories/Azure/
 https://clouddev.blog/categories/Blog/
 https://clouddev.blog/categories/AKS/
+https://clouddev.blog/categories/Azure-Logic-Apps/
 https://clouddev.blog/categories/GitHub/
 https://clouddev.blog/categories/Azure/Function-Apps/
 https://clouddev.blog/categories/AKS/AGIC/
-https://clouddev.blog/categories/GitHub/Actions/
 https://clouddev.blog/categories/Azure/Container-Apps/
+https://clouddev.blog/categories/GitHub/Actions/
 https://clouddev.blog/categories/Azure/Function-Apps/Security/
-https://clouddev.blog/categories/Azure-Logic-Apps/
 https://clouddev.blog/categories/Azure-Dev-Test-Labs/
