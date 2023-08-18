@@ -49,9 +49,9 @@
     
     <category term="Azure" scheme="https://clouddev.blog/tags/Azure/"/>
     
-    <category term="Azure Blob Storage" scheme="https://clouddev.blog/tags/Azure-Blob-Storage/"/>
-    
     <category term=".NET" scheme="https://clouddev.blog/tags/NET/"/>
+    
+    <category term="Azure Blob Storage" scheme="https://clouddev.blog/tags/Azure-Blob-Storage/"/>
     
     <category term="GZip" scheme="https://clouddev.blog/tags/GZip/"/>
     
@@ -94,9 +94,9 @@
     
     <category term="Function Apps" scheme="https://clouddev.blog/tags/Function-Apps/"/>
     
-    <category term="PowerShell" scheme="https://clouddev.blog/tags/PowerShell/"/>
-    
     <category term="Azure Blob Storage" scheme="https://clouddev.blog/tags/Azure-Blob-Storage/"/>
+    
+    <category term="PowerShell" scheme="https://clouddev.blog/tags/PowerShell/"/>
     
     <category term="Azure CLI" scheme="https://clouddev.blog/tags/Azure-CLI/"/>
     

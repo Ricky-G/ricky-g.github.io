@@ -101,41 +101,6 @@
 
   
   <url>
-    <loc>https://clouddev.blog/tags/Azure/</loc>
-    <lastmod>2023-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Azure-Container-Apps/</loc>
-    <lastmod>2023-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Containers/</loc>
-    <lastmod>2023-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Docker/</loc>
-    <lastmod>2023-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/DotNet/</loc>
-    <lastmod>2023-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://clouddev.blog/tags/Hexo/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -151,6 +116,13 @@
   
   <url>
     <loc>https://clouddev.blog/tags/Blog/</loc>
+    <lastmod>2023-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Azure/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -241,14 +213,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/tags/Single-Threaded-Apps/</loc>
-    <lastmod>2023-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/PowerShell/</loc>
+    <loc>https://clouddev.blog/tags/NET/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -256,20 +221,6 @@
   
   <url>
     <loc>https://clouddev.blog/tags/Azure-Blob-Storage/</loc>
-    <lastmod>2023-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Azure-CLI/</loc>
-    <lastmod>2023-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/NET/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -284,6 +235,55 @@
   
   <url>
     <loc>https://clouddev.blog/tags/Tar/</loc>
+    <lastmod>2023-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/PowerShell/</loc>
+    <lastmod>2023-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Azure-CLI/</loc>
+    <lastmod>2023-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Azure-Container-Apps/</loc>
+    <lastmod>2023-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Containers/</loc>
+    <lastmod>2023-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Docker/</loc>
+    <lastmod>2023-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/DotNet/</loc>
+    <lastmod>2023-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Single-Threaded-Apps/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -327,7 +327,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Azure/</loc>
+    <loc>https://clouddev.blog/categories/GitHub/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -341,7 +341,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Azure/Function-Apps/</loc>
+    <loc>https://clouddev.blog/categories/GitHub/Actions/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -355,7 +355,14 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Azure/Container-Apps/</loc>
+    <loc>https://clouddev.blog/categories/Azure/</loc>
+    <lastmod>2023-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/categories/Azure/Function-Apps/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -363,6 +370,20 @@
   
   <url>
     <loc>https://clouddev.blog/categories/Azure/Logic-Apps/</loc>
+    <lastmod>2023-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/categories/Azure/Container-Apps/</loc>
+    <lastmod>2023-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/categories/Azure/Function-Apps/NET/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -377,27 +398,6 @@
   
   <url>
     <loc>https://clouddev.blog/categories/Azure/Function-Apps/Security/</loc>
-    <lastmod>2023-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/categories/Azure/Function-Apps/NET/</loc>
-    <lastmod>2023-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/categories/GitHub/</loc>
-    <lastmod>2023-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/categories/GitHub/Actions/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
