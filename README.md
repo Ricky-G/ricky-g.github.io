@@ -1,1 +1,1 @@
-[![pages-build-deployment](https://github.com/Ricky-G/ricky-g.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Ricky-G/ricky-g.github.io/actions/workflows/pages/pages-build-deployment)
+[![blog-site-deployment](https://github.com/Ricky-G/ricky-g.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Ricky-G/ricky-g.github.io/actions/workflows/pages/pages-build-deployment)
