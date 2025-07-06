@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/GitHub/Actions/deploying-to-ip-restricted-azure-function-apps-using-github-actions/</loc>
+    <loc>https://clouddev.blog/AKS/AGIC/application-gateway-ingress-controller-for-aks/</loc>
     
     <lastmod>2025-01-12</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/AKS/AGIC/application-gateway-ingress-controller-for-aks/</loc>
+    <loc>https://clouddev.blog/GitHub/Actions/deploying-to-ip-restricted-azure-function-apps-using-github-actions/</loc>
     
     <lastmod>2025-01-12</lastmod>
     
@@ -119,41 +119,6 @@
 
   
   <url>
-    <loc>https://clouddev.blog/tags/Azure/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Azure-Container-Apps/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Containers/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Docker/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/DotNet/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://clouddev.blog/tags/Hexo/</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -169,6 +134,13 @@
   
   <url>
     <loc>https://clouddev.blog/tags/Blog/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Azure/</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -197,6 +169,34 @@
   
   <url>
     <loc>https://clouddev.blog/tags/Logic-Apps/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/OpenAI/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Speech-Services/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Realtime/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/C/</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -245,41 +245,6 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/tags/OpenAI/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Speech-Services/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Realtime/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/C/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Single-Threaded-Apps/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://clouddev.blog/tags/AKS/</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -315,6 +280,41 @@
   </url>
   
   <url>
+    <loc>https://clouddev.blog/tags/Azure-Container-Apps/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Containers/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Docker/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/DotNet/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Single-Threaded-Apps/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://clouddev.blog/tags/Azure-Logic-Apps/</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -343,7 +343,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/tags/PowerShell/</loc>
+    <loc>https://clouddev.blog/tags/NET/</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -351,20 +351,6 @@
   
   <url>
     <loc>https://clouddev.blog/tags/Azure-Blob-Storage/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Azure-CLI/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/NET/</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -379,6 +365,20 @@
   
   <url>
     <loc>https://clouddev.blog/tags/Tar/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/PowerShell/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Azure-CLI/</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -401,6 +401,13 @@
   </url>
   
   <url>
+    <loc>https://clouddev.blog/categories/AKS/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://clouddev.blog/categories/GitHub/</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -415,7 +422,14 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/GitHub/Actions/</loc>
+    <loc>https://clouddev.blog/categories/Azure/Container-Apps/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/categories/Azure/Logic-Apps/</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -429,7 +443,28 @@
   </url>
   
   <url>
+    <loc>https://clouddev.blog/categories/Azure/DevTest-Labs/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://clouddev.blog/categories/Azure/Function-Apps/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/categories/AKS/AGIC/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/categories/GitHub/Actions/</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -450,41 +485,6 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Azure/Function-Apps/Security/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/categories/Azure/Container-Apps/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/categories/AKS/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/categories/Azure/Logic-Apps/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/categories/Azure/DevTest-Labs/</loc>
-    <lastmod>2025-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://clouddev.blog/categories/Azure/Function-Apps/NET/</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -492,7 +492,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/AKS/AGIC/</loc>
+    <loc>https://clouddev.blog/categories/Azure/Function-Apps/Security/</loc>
     <lastmod>2025-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
