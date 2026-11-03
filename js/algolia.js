@@ -1,20 +1,53 @@
-/* global instantsearch, algoliasearch */
+/* global instantsearch */
 // eslint-disable-next-line no-unused-vars
 function loadAlgolia(config, translation) {
-  const search = instantsearch({
+  const $main = $('.searchbox');
+  let search = null;
+  const controller = window.loadSearchbox($main, {
+    onDestroy: () => {
+      // Widget initialization can fail before start completes. Dispose only initialized indices.
+      if (search && search.mainIndex.getHelper()) search.dispose();
+    },
+  });
+  function escapeHTML(text) {
+    return String(text).replace(/[&<>"']/g, (char) => {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char];
+    });
+  }
+
+  // Keep the <em> highlights of Algolia, and escape the rest, so that a record cannot add HTML. The
+  // excerpt is indexed from HTML, so its tags are removed.
+  function highlighted(html, stripTags) {
+    html = html
+      .replace(/<em>/gi, '[algolia-highlight]')
+      .replace(/<\/em>/gi, '[/algolia-highlight]');
+    if (stripTags) {
+      html = html.replace(/<[^>]+>/g, '');
+    }
+    return html
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/\[algolia-highlight\]/g, '<em>')
+      .replace(/\[\/algolia-highlight\]/g, '</em>');
+  }
+
+  search = instantsearch({
     indexName: config.indexName,
-    searchClient: algoliasearch(config.applicationId, config.apiKey),
+    searchClient: window['algoliasearch/lite'].liteClient(config.applicationId, config.apiKey),
+    // Preserve search-only behavior; do not enable automatic Insights tracking after upgrading.
+    insights: false,
   });
 
   search.addWidgets([
     instantsearch.widgets.configure({
-      attributesToSnippet: ['excerpt'],
+      attributesToSnippet: [config.excerpt],
     }),
-  ]);
-
-  search.addWidget(
     instantsearch.widgets.searchBox({
       container: '#algolia-input',
+      // Disposing removes the widget DOM, but callers may still hold its old input node.
+      queryHook: (query, refine) => {
+        if (controller.isCurrent()) refine(query);
+      },
       placeholder: translation.hint,
       showReset: false,
       showSubmit: false,
@@ -25,15 +58,9 @@ function loadAlgolia(config, translation) {
         input: 'searchbox-input',
       },
     }),
-  );
-
-  search.addWidget(
     instantsearch.widgets.poweredBy({
       container: '#algolia-poweredby',
     }),
-  );
-
-  search.addWidget(
     instantsearch.widgets.hits({
       container: '.searchbox-body',
       escapeHTML: false,
@@ -43,21 +70,16 @@ function loadAlgolia(config, translation) {
       },
       templates: {
         empty: function (results) {
-          return translation.no_result + ': ' + results.query;
+          return escapeHTML(translation.no_result + ': ' + results.query);
         },
         item: function (hit) {
           let title = instantsearch.highlight({ attribute: 'title', hit });
-          let excerpt = instantsearch.highlight({ attribute: 'excerpt', hit });
-          title = title ? title : translation.untitled;
-          excerpt = excerpt
-            .replace(new RegExp('<em>', 'ig'), '[algolia-highlight]')
-            .replace(new RegExp('</em>', 'ig'), '[/algolia-highlight]')
-            .replace(/(<([^>]+)>)/gi, '')
-            .replace(/(\[algolia-highlight\])/gi, '<em>')
-            .replace(/(\[\/algolia-highlight\])/gi, '</em>');
-          excerpt = excerpt ? excerpt : translation.empty_preview;
+          let excerpt = instantsearch.highlight({ attribute: config.excerpt, hit });
+          title = title ? highlighted(title, false) : escapeHTML(translation.untitled);
+          excerpt = highlighted(excerpt, true);
+          excerpt = excerpt ? excerpt : escapeHTML(translation.empty_preview);
           return `<section class="searchbox-result-section">
-                        <a class="searchbox-result-item" href="${hit.permalink}">
+                        <a class="searchbox-result-item" href="${escapeHTML(hit.permalink)}">
                             <span class="searchbox-result-content">
                                 <span class="searchbox-result-title">${title}</span>
                                 <span class="searchbox-result-preview">${excerpt}</span>
@@ -67,9 +89,6 @@ function loadAlgolia(config, translation) {
         },
       },
     }),
-  );
-
-  search.addWidget(
     instantsearch.widgets.pagination({
       container: '.searchbox-footer',
       cssClasses: {
@@ -80,23 +99,11 @@ function loadAlgolia(config, translation) {
         disabledItem: 'disabled',
       },
     }),
-  );
+  ]);
 
   search.start();
 
   if (location.hash.trim() === '#algolia-search') {
     $('.searchbox').addClass('show');
   }
-
-  $(document)
-    .on('click', '.navbar-main .search', () => {
-      $('.searchbox').toggleClass('show');
-      $('.searchbox-input').focus();
-    })
-    .on('click', '.searchbox .searchbox-mask', () => {
-      $('.searchbox').removeClass('show');
-    })
-    .on('click', '.searchbox-close', () => {
-      $('.searchbox').removeClass('show');
-    });
 }
