@@ -1,0 +1,1 @@
+!function(){const e=document.getElementById("icarus-mermaid-config");window.mermaid.initialize(JSON.parse(e.textContent)),window.mermaid.run({querySelector:".mermaid"})}();
