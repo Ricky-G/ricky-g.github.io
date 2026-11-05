@@ -14,7 +14,7 @@
   <title>
     <![CDATA[Building with AI & Azure]]>
   </title>
-  <updated>2026-11-04T10:18:37.196Z</updated>
+  <updated>2026-11-05T00:17:16.955Z</updated>
   <entry>
     <author>
       <name>Ricky Gummadi</name>
@@ -37,7 +37,7 @@
     <published>2026-11-02T20:00:00.000Z</published>
     <summary>A practical November 2026 guide to GitHub Copilot harnesses, persistent agent sessions, cloud sandboxes and AI Credits, with updated advice on delegation and cost.</summary>
     <title>GitHub Copilot Agents Part 2: Harnesses, the Agent Host, Cloud Sandboxes and AI Credits Explained</title>
-    <updated>2026-11-04T10:18:37.196Z</updated>
+    <updated>2026-11-05T00:17:16.955Z</updated>
   </entry>
   <entry>
     <author>
@@ -63,7 +63,7 @@
     <published>2026-06-25T12:00:00.000Z</published>
     <summary>A practical guide to AGENTS.md, Copilot instructions, Cursor rules, CLAUDE.md, GEMINI.md and skills. Choose the right context file, understand precedence, and see what the research says.</summary>
     <title>AGENTS.md vs Copilot Instructions vs Cursor Rules vs CLAUDE.md: Which AI Context File to Use, and When (2026)</title>
-    <updated>2026-11-04T10:18:37.178Z</updated>
+    <updated>2026-11-05T00:17:16.932Z</updated>
   </entry>
   <entry>
     <author>
@@ -115,7 +115,7 @@
 </blockquote>]]>
     </summary>
     <title>AI Engineering Coach: Measure How You Actually Code with AI</title>
-    <updated>2026-11-04T10:18:37.178Z</updated>
+    <updated>2026-11-05T00:17:16.932Z</updated>
   </entry>
   <entry>
     <author>
@@ -168,7 +168,7 @@
 </blockquote>]]>
     </summary>
     <title>Governance for AI Agents (Part 1): The Gap, the OWASP Agentic Top 10, and Where AGT Fits</title>
-    <updated>2026-11-04T10:18:37.178Z</updated>
+    <updated>2026-11-05T00:17:16.932Z</updated>
   </entry>
   <entry>
     <author>
@@ -227,7 +227,7 @@
     B_BEN --> Func</pre>]]>
     </summary>
     <title>APIM Backend Fan-out: Shared Backend + rewrite-uri vs One Backend Per API (A Real Benchmark)</title>
-    <updated>2026-11-04T10:18:37.178Z</updated>
+    <updated>2026-11-05T00:17:16.932Z</updated>
   </entry>
   <entry>
     <author>
@@ -266,7 +266,7 @@
     GW -->|"Unique IP per NS"| EXT["External Services"]</pre>]]>
     </summary>
     <title>AKS Static Egress Gateway: Per-Namespace Static Egress IPs</title>
-    <updated>2026-11-04T10:18:37.178Z</updated>
+    <updated>2026-11-05T00:17:16.932Z</updated>
   </entry>
   <entry>
     <author>
@@ -287,7 +287,7 @@
     <published>2026-01-09T11:00:00.000Z</published>
     <summary>A January 2026 snapshot of GitHub Copilot agent workflows, with November update notes and a link to Part 2 covering harnesses, cloud sandboxes and AI Credits.</summary>
     <title>The Four Types of GitHub Copilot Agents: Local, Background, Cloud, and Sub-Agents Explained</title>
-    <updated>2026-11-04T10:18:37.177Z</updated>
+    <updated>2026-11-05T00:17:16.930Z</updated>
   </entry>
   <entry>
     <author>
@@ -319,7 +319,7 @@
 <p>The answer turned out to be yes - with some clever memory management and containerization. This blog post walks through the complete process of dockerizing OmniControl to run efficiently on a 12GB consumer GPU.</p>]]>
     </summary>
     <title>Running FLUX.1 OmniControl on a Consumer GPU: A Docker Implementation tested on RTX 3060</title>
-    <updated>2026-11-04T10:18:37.176Z</updated>
+    <updated>2026-11-05T00:17:16.930Z</updated>
   </entry>
   <entry>
     <author>
@@ -402,7 +402,7 @@
     style data fill:#e8f5e9,stroke:#388e3c,stroke-width:2px</pre>]]>
     </summary>
     <title>Microsoft Foundry Cross-Region with Private Endpoints (Part 1)</title>
-    <updated>2026-11-04T10:18:37.176Z</updated>
+    <updated>2026-11-05T00:17:16.930Z</updated>
   </entry>
   <entry>
     <author>
@@ -470,7 +470,7 @@
 <h2 id="Understanding-Oh-My-Posh-The-Modern-Prompt-Engine"><a href="#Understanding-Oh-My-Posh-The-Modern-Prompt-Engine" class="headerlink" title="Understanding Oh My Posh: The Modern Prompt Engine"></a>Understanding Oh My Posh: The Modern Prompt Engine</h2><p>Before diving into the automation, it’s worth understanding what Oh My Posh brings to the table and why it’s become the de facto standard for PowerShell prompt customization.</p>]]>
     </summary>
     <title>Pimp My Terminal - Terminal Customization with Oh My Posh - A Cloud Native Terminal Setup</title>
-    <updated>2026-11-04T10:18:37.176Z</updated>
+    <updated>2026-11-05T00:17:16.929Z</updated>
   </entry>
   <entry>
     <author>
@@ -506,7 +506,7 @@
 <p><strong>Compliance and Security Scanning:</strong> Security tools and compliance scripts that rely on code search may miss important files if they’re not in the default branch.</p>]]>
     </summary>
     <title>Automating Searchable Branch Configuration in Azure DevOps Repos via REST API</title>
-    <updated>2026-11-04T10:18:37.176Z</updated>
+    <updated>2026-11-05T00:17:16.929Z</updated>
   </entry>
   <entry>
     <author>
@@ -600,7 +600,7 @@
 </ol>]]>
     </summary>
     <title>Building Voice Agents with Azure Communication Services Voice Live API and Azure AI Agent Service</title>
-    <updated>2026-11-04T10:18:37.175Z</updated>
+    <updated>2026-11-05T00:17:16.929Z</updated>
   </entry>
   <entry>
     <author>
@@ -634,7 +634,7 @@
 <p>The main challenge developers face is distinguishing between project metadata and actual TFVC repository structure. When calling the standard Projects API, you receive project information but not the folder structure within the TFVC repository itself.</p>]]>
     </summary>
     <title>Getting TFVC Repository Structure via Azure DevOps Server API</title>
-    <updated>2026-11-04T10:18:37.175Z</updated>
+    <updated>2026-11-05T00:17:16.928Z</updated>
   </entry>
   <entry>
     <author>
@@ -711,7 +711,7 @@
 <p>Lets check out how this was built and setup…</p>]]>
     </summary>
     <title>How We United 8 Developers Across Restricted Environments Using Azure VMs and Dev Containers</title>
-    <updated>2026-11-04T10:18:37.175Z</updated>
+    <updated>2026-11-05T00:17:16.928Z</updated>
   </entry>
   <entry>
     <author>
@@ -765,7 +765,7 @@
     style I fill:#fff3e0</pre>]]>
     </summary>
     <title>Custom Voices in Azure OpenAI Realtime with Azure Speech Services</title>
-    <updated>2026-11-04T10:18:37.175Z</updated>
+    <updated>2026-11-05T00:17:16.928Z</updated>
   </entry>
   <entry>
     <author>
@@ -802,7 +802,7 @@
 <p>The answer is <strong>yes, they come back</strong>, and <strong>no, you don’t have to write any code</strong>. Easy Auth handles it natively. This post walks through how, with HTTP traces captured byte-for-byte from a live deployment, all reproducible from the <a href="https://github.com/Ricky-G/azure-scenario-hub">Azure Scenario Hub</a>.</p>]]>
     </summary>
     <title>Preserving Custom Query String Parameters Through Azure App Service Easy Auth</title>
-    <updated>2026-11-04T10:18:37.175Z</updated>
+    <updated>2026-11-05T00:17:16.928Z</updated>
   </entry>
   <entry>
     <author>
@@ -833,7 +833,7 @@
 <p><img src="/Azure/Storage/Azurite/ignoring-azurite-files/azurite-files.png" alt="Azurite files"></p>]]>
     </summary>
     <title>Ignoring Azurite Files</title>
-    <updated>2026-11-04T10:18:37.175Z</updated>
+    <updated>2026-11-05T00:17:16.926Z</updated>
   </entry>
   <entry>
     <author>
@@ -843,8 +843,8 @@
     <category term="Function Apps" scheme="https://clouddev.blog/categories/Azure/Function-Apps/"/>
     <category term=".NET" scheme="https://clouddev.blog/categories/Azure/Function-Apps/NET/"/>
     <category term="Azure" scheme="https://clouddev.blog/tags/Azure/"/>
-    <category term=".NET" scheme="https://clouddev.blog/tags/NET/"/>
     <category term="Azure Blob Storage" scheme="https://clouddev.blog/tags/Azure-Blob-Storage/"/>
+    <category term=".NET" scheme="https://clouddev.blog/tags/NET/"/>
     <category term="GZip" scheme="https://clouddev.blog/tags/GZip/"/>
     <category term="Tar" scheme="https://clouddev.blog/tags/Tar/"/>
     <content>
@@ -875,7 +875,7 @@
     <title>
       <![CDATA[Extracting GZip & Tar Files Natively in .NET Without External Libraries]]>
     </title>
-    <updated>2026-11-04T10:18:37.201Z</updated>
+    <updated>2026-11-05T00:17:16.961Z</updated>
   </entry>
   <entry>
     <author>
@@ -917,7 +917,7 @@
 </ol>]]>
     </summary>
     <title>Unzipping and Shuffling GBs of Data Using Azure Functions</title>
-    <updated>2026-11-04T10:18:37.201Z</updated>
+    <updated>2026-11-05T00:17:16.961Z</updated>
   </entry>
   <entry>
     <author>
@@ -947,7 +947,7 @@
 <h2 id="Existing-Documentation-Limitations"><a href="#Existing-Documentation-Limitations" class="headerlink" title="Existing Documentation Limitations"></a>Existing Documentation Limitations</h2><p>While the existing documentation covers various aspects of Azure DevTest Labs, it lacks clear guidance on setting up policies with DevTest Labs in Bicep. This blog post aims to address that gap by providing a Bicep script for creating a DevTest Lab and applying policies to it. Shout out to my colleague <a href="https://www.linkedin.com/in/illian-yuan">Illian Y</a> for persisting and not giving up and finding a away around undocumented features and showing me.</p>]]>
     </summary>
     <title>Azure DevTest Labs Policies</title>
-    <updated>2026-11-04T10:18:37.201Z</updated>
+    <updated>2026-11-05T00:17:16.961Z</updated>
   </entry>
   <entry>
     <author>
@@ -981,7 +981,7 @@
 <h2 id="Ways-To-Change-Defaults"><a href="#Ways-To-Change-Defaults" class="headerlink" title="Ways To Change Defaults"></a>Ways To Change Defaults</h2><p>With that, here are a couple of quick ways to make sure your Logic App times out and terminates within the time frame you set. Lets say if we want our Logic App to run no more than 60 seconds at max then:</p>]]>
     </summary>
     <title>Azure Logic Apps Timeout</title>
-    <updated>2026-11-04T10:18:37.201Z</updated>
+    <updated>2026-11-05T00:17:16.960Z</updated>
   </entry>
   <entry>
     <author>
@@ -1018,7 +1018,7 @@
 <h2 id="Options-For-Running-Containers"><a href="#Options-For-Running-Containers" class="headerlink" title="Options For Running Containers"></a>Options For Running Containers</h2><p>So when it comes to running a container in Azure our main options are below<br><img src="/Azure/Container-Apps/create-a-multi-user-experience-for-single-threaded-applications-using-azure-container-apps/container-options.png" alt=" " title="Container Options"></p>]]>
     </summary>
     <title>Create A Multi User Experience For Single Threaded Applications Using Azure Container Apps</title>
-    <updated>2026-11-04T10:18:37.198Z</updated>
+    <updated>2026-11-05T00:17:16.957Z</updated>
   </entry>
   <entry>
     <author>
@@ -1060,7 +1060,7 @@
 <p>This post isn’t focused on the App Gateway itself, it’s more about how and what it can do as an ingress controller for AKS. <a href="https://docs.microsoft.com/en-us/azure/application-gateway/features">You can find out more about App Gateway and all abouts its features here</a></p>]]>
     </summary>
     <title>Application Gateway Ingress Controller For AKS</title>
-    <updated>2026-11-04T10:18:37.196Z</updated>
+    <updated>2026-11-05T00:17:16.955Z</updated>
   </entry>
   <entry>
     <author>
@@ -1097,7 +1097,7 @@
 <h2 id="Possible-Solutions"><a href="#Possible-Solutions" class="headerlink" title="Possible Solutions"></a>Possible Solutions</h2><p>There are two viable solutions here</p>]]>
     </summary>
     <title>Deploying To IP Restricted Azure Function Apps Using GitHub Actions</title>
-    <updated>2026-11-04T10:18:37.196Z</updated>
+    <updated>2026-11-05T00:17:16.955Z</updated>
   </entry>
   <entry>
     <author>
@@ -1134,7 +1134,7 @@
 <p><img src="/Azure/Function-Apps/Security/securing-azure-functions-and-logic-apps/apim-azure-functions-backend.png" alt=" " title="Sample Scenario"></p>]]>
     </summary>
     <title>Securing Azure Functions and Logic Apps</title>
-    <updated>2026-11-04T10:18:37.177Z</updated>
+    <updated>2026-11-05T00:17:16.930Z</updated>
   </entry>
   <entry>
     <author>
@@ -1167,6 +1167,6 @@
 </ul>]]>
     </summary>
     <title>Hello World 👋</title>
-    <updated>2026-11-04T10:18:37.174Z</updated>
+    <updated>2026-11-05T00:17:16.926Z</updated>
   </entry>
 </feed>
