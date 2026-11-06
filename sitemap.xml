@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/about/index.html</loc>
-    
-    <lastmod>2026-11-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://clouddev.blog/Azure/Logic-Apps/azure-logic-apps-timeout/</loc>
     
     <lastmod>2026-11-06</lastmod>
@@ -48,6 +39,15 @@
   
   <url>
     <loc>https://clouddev.blog/Azure/Function-Apps/NET/extracting-gzip-tar-files-natively-in-net-without-external-libraries/</loc>
+    
+    <lastmod>2026-11-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/about/index.html</loc>
     
     <lastmod>2026-11-06</lastmod>
     
@@ -92,6 +92,15 @@
   </url>
   
   <url>
+    <loc>https://clouddev.blog/AKS/Networking/aks-static-egress-gateway-per-namespace-static-egress-ips/</loc>
+    
+    <lastmod>2026-11-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://clouddev.blog/Azure/APIM/apim-backend-fan-out-shared-backend-rewrite-uri-vs-one-backend-per-api-a-real-benchmark/</loc>
     
     <lastmod>2026-11-06</lastmod>
@@ -128,16 +137,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/AKS/Networking/aks-static-egress-gateway-per-namespace-static-egress-ips/</loc>
-    
-    <lastmod>2026-11-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/Azure/AI/Networking/microsoft-foundry-cross-region-with-private-endpoints-part-1/</loc>
+    <loc>https://clouddev.blog/AI/LLMs/running-flux-1-omnicontrol-on-a-consumer-gpu-a-docker-implementation-tested-on-rtx-3060/</loc>
     
     <lastmod>2026-11-06</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/AI/LLMs/running-flux-1-omnicontrol-on-a-consumer-gpu-a-docker-implementation-tested-on-rtx-3060/</loc>
+    <loc>https://clouddev.blog/Azure/Function-Apps/Security/securing-azure-functions-and-logic-apps/</loc>
     
     <lastmod>2026-11-06</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/Azure/Function-Apps/Security/securing-azure-functions-and-logic-apps/</loc>
+    <loc>https://clouddev.blog/Azure/AI/Networking/microsoft-foundry-cross-region-with-private-endpoints-part-1/</loc>
     
     <lastmod>2026-11-06</lastmod>
     
@@ -218,15 +218,6 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/Engineering/Tooling/pimp-my-terminal-terminal-customization-with-oh-my-posh-a-cloud-native-terminal-setup/</loc>
-    
-    <lastmod>2026-11-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://clouddev.blog/Azure-DevOps/Azure-DevOps-API/automating-searchable-branch-configuration-in-azure-devops-repos-via-rest-api/</loc>
     
     <lastmod>2026-11-06</lastmod>
@@ -236,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/Azure/Storage/Azurite/ignoring-azurite-files/</loc>
+    <loc>https://clouddev.blog/Engineering/Tooling/pimp-my-terminal-terminal-customization-with-oh-my-posh-a-cloud-native-terminal-setup/</loc>
     
     <lastmod>2026-11-06</lastmod>
     
@@ -246,6 +237,15 @@
   
   <url>
     <loc>https://clouddev.blog/Blog/hello-world-%F0%9F%91%8B/</loc>
+    
+    <lastmod>2026-11-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/Azure/Storage/Azurite/ignoring-azurite-files/</loc>
     
     <lastmod>2026-11-06</lastmod>
     
@@ -545,63 +545,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/tags/Kubernetes/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://clouddev.blog/tags/AI/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Microsoft-Foundry/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Private-Endpoints/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Private-Link/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Networking/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Security/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/GitHub/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/GitHub-Copilot/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -622,7 +566,28 @@
   </url>
   
   <url>
+    <loc>https://clouddev.blog/tags/GitHub/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/GitHub-Copilot/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://clouddev.blog/tags/CI-CD/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Security/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -644,6 +609,20 @@
   
   <url>
     <loc>https://clouddev.blog/tags/AKS/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Kubernetes/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Networking/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -776,6 +755,27 @@
   </url>
   
   <url>
+    <loc>https://clouddev.blog/tags/AGENTS-md/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Custom-Instructions/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Cursor/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://clouddev.blog/tags/Copilot-CLI/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -818,14 +818,21 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/tags/Policy-Configuration/</loc>
+    <loc>https://clouddev.blog/tags/Ingress/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://clouddev.blog/tags/Code-Search/</loc>
+    <loc>https://clouddev.blog/tags/AGIC/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Application-Gateway/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -853,28 +860,21 @@
   </url>
   
   <url>
+    <loc>https://clouddev.blog/tags/Policy-Configuration/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Code-Search/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://clouddev.blog/tags/Azure-Logic-Apps/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/AGENTS-md/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Custom-Instructions/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/tags/Cursor/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -937,21 +937,21 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/tags/Ingress/</loc>
+    <loc>https://clouddev.blog/tags/Microsoft-Foundry/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://clouddev.blog/tags/AGIC/</loc>
+    <loc>https://clouddev.blog/tags/Private-Endpoints/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://clouddev.blog/tags/Application-Gateway/</loc>
+    <loc>https://clouddev.blog/tags/Private-Link/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -995,7 +995,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Engineering/</loc>
+    <loc>https://clouddev.blog/categories/AI/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1016,21 +1016,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/AI/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://clouddev.blog/categories/Azure/Function-Apps/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/categories/Azure/DevOps/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1045,6 +1031,13 @@
   
   <url>
     <loc>https://clouddev.blog/categories/Azure/APIM/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/categories/Azure/DevOps/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1079,7 +1072,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Engineering/Tooling/</loc>
+    <loc>https://clouddev.blog/categories/AI/LLMs/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1093,7 +1086,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Azure/AI/Networking/</loc>
+    <loc>https://clouddev.blog/categories/Azure/DevTest-Labs/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1107,20 +1100,6 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Azure/AI/Speech/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/categories/AI/LLMs/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://clouddev.blog/categories/Azure/Function-Apps/Security/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -1128,7 +1107,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Azure/DevOps/Development/</loc>
+    <loc>https://clouddev.blog/categories/Azure/AI/Speech/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1136,6 +1115,13 @@
   
   <url>
     <loc>https://clouddev.blog/categories/AKS/Networking/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/categories/Azure/DevOps/Development/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1163,7 +1149,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Azure/DevTest-Labs/</loc>
+    <loc>https://clouddev.blog/categories/AKS/AGIC/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1177,7 +1163,21 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/AKS/AGIC/</loc>
+    <loc>https://clouddev.blog/categories/Engineering/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/categories/Azure/AI/Networking/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/categories/Engineering/Tooling/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
