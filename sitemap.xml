@@ -74,6 +74,15 @@
   </url>
   
   <url>
+    <loc>https://clouddev.blog/GitHub/Copilot/github-copilot-harness-security-patch-pin-and-govern-your-coding-agents/</loc>
+    
+    <lastmod>2026-11-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://clouddev.blog/GitHub/Copilot/play-ship-it-the-github-universe-2026-announcements-game/</loc>
     
     <lastmod>2026-11-21</lastmod>
@@ -102,6 +111,15 @@
   
   <url>
     <loc>https://clouddev.blog/GitHub/Copilot/github-copilot-agents-part-2-harnesses-the-agent-host-cloud-sandboxes-and-ai-credits-explained/</loc>
+    
+    <lastmod>2026-11-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/AI/AI-Engineering/agents-md-vs-copilot-instructions-vs-cursor-rules-vs-claude-md-which-ai-context-file-to-use-and-when-2026/</loc>
     
     <lastmod>2026-11-21</lastmod>
     
@@ -146,7 +164,16 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/AI/AI-Engineering/agents-md-vs-copilot-instructions-vs-cursor-rules-vs-claude-md-which-ai-context-file-to-use-and-when-2026/</loc>
+    <loc>https://clouddev.blog/AI/LLMs/running-flux-1-omnicontrol-on-a-consumer-gpu-a-docker-implementation-tested-on-rtx-3060/</loc>
+    
+    <lastmod>2026-11-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/GitHub/Copilot/the-four-types-of-github-copilot-agents-local-background-cloud-and-sub-agents-explained/</loc>
     
     <lastmod>2026-11-21</lastmod>
     
@@ -156,6 +183,24 @@
   
   <url>
     <loc>https://clouddev.blog/Azure/Function-Apps/Security/securing-azure-functions-and-logic-apps/</loc>
+    
+    <lastmod>2026-11-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/Azure-DevOps/Azure-DevOps-API/getting-tfvc-repository-structure-via-azure-devops-server-api/</loc>
+    
+    <lastmod>2026-11-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/Azure/AI/Voice-Live-API/building-voice-agents-with-azure-communication-services-voice-live-api-and-azure-ai-agent-service/</loc>
     
     <lastmod>2026-11-21</lastmod>
     
@@ -191,16 +236,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/AI/LLMs/running-flux-1-omnicontrol-on-a-consumer-gpu-a-docker-implementation-tested-on-rtx-3060/</loc>
-    
-    <lastmod>2026-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/GitHub/Copilot/the-four-types-of-github-copilot-agents-local-background-cloud-and-sub-agents-explained/</loc>
+    <loc>https://clouddev.blog/Azure/Storage/Azurite/ignoring-azurite-files/</loc>
     
     <lastmod>2026-11-21</lastmod>
     
@@ -236,34 +272,7 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/Azure-DevOps/Azure-DevOps-API/getting-tfvc-repository-structure-via-azure-devops-server-api/</loc>
-    
-    <lastmod>2026-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/Azure/AI/Voice-Live-API/building-voice-agents-with-azure-communication-services-voice-live-api-and-azure-ai-agent-service/</loc>
-    
-    <lastmod>2026-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://clouddev.blog/Blog/hello-world-%F0%9F%91%8B/</loc>
-    
-    <lastmod>2026-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://clouddev.blog/Azure/Storage/Azurite/ignoring-azurite-files/</loc>
     
     <lastmod>2026-11-21</lastmod>
     
@@ -892,6 +901,20 @@
   </url>
   
   <url>
+    <loc>https://clouddev.blog/tags/Visual-Studio/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://clouddev.blog/tags/Git/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://clouddev.blog/tags/Ingress/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -1104,14 +1127,14 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Azure/Container-Apps/</loc>
+    <loc>https://clouddev.blog/categories/Engineering/Tooling/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Engineering/Tooling/</loc>
+    <loc>https://clouddev.blog/categories/Azure/Container-Apps/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1125,14 +1148,14 @@
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Azure/DevTest-Labs/</loc>
+    <loc>https://clouddev.blog/categories/Azure/AI/Networking/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://clouddev.blog/categories/Azure/AI/Networking/</loc>
+    <loc>https://clouddev.blog/categories/Azure/DevTest-Labs/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
