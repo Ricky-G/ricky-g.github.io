@@ -14,7 +14,7 @@
   <title>
     <![CDATA[Building with AI & Azure]]>
   </title>
-  <updated>2026-11-25T08:46:38.930Z</updated>
+  <updated>2026-11-25T22:25:18.817Z</updated>
   <entry>
     <author>
       <name>Ricky Gummadi</name>
@@ -37,7 +37,7 @@
     <published>2026-11-19T19:30:00.000Z</published>
     <summary>Contain AI agents on Azure with model intake checks, least-privilege identities, restricted egress and tested stop buttons for inference, identity and infrastructure.</summary>
     <title>AI Agent Containment on Azure: Stop Buttons, Identity and Network Controls</title>
-    <updated>2026-11-25T08:46:38.930Z</updated>
+    <updated>2026-11-25T22:25:18.817Z</updated>
   </entry>
   <entry>
     <author>
@@ -61,7 +61,7 @@
     <published>2026-11-17T19:30:00.000Z</published>
     <summary>Learn how Copilot Studio bring your own model connects to Microsoft Foundry, what it governs, and why resource isolation matters for API keys.</summary>
     <title>Copilot Studio Bring Your Own Model: Microsoft Foundry Governance and Security</title>
-    <updated>2026-11-25T08:46:38.930Z</updated>
+    <updated>2026-11-25T22:25:18.817Z</updated>
   </entry>
   <entry>
     <author>
@@ -73,8 +73,8 @@
     <category term="Security" scheme="https://clouddev.blog/tags/Security/"/>
     <category term="GitHub Copilot" scheme="https://clouddev.blog/tags/GitHub-Copilot/"/>
     <category term="Agent Governance" scheme="https://clouddev.blog/tags/Agent-Governance/"/>
-    <category term="MCP" scheme="https://clouddev.blog/tags/MCP/"/>
     <category term="Copilot CLI" scheme="https://clouddev.blog/tags/Copilot-CLI/"/>
+    <category term="MCP" scheme="https://clouddev.blog/tags/MCP/"/>
     <category term="Visual Studio" scheme="https://clouddev.blog/tags/Visual-Studio/"/>
     <category term="Git" scheme="https://clouddev.blog/tags/Git/"/>
     <content>
@@ -85,7 +85,7 @@
     <published>2026-11-15T19:30:00.000Z</published>
     <summary>Secure GitHub Copilot coding agents with a practical baseline for VS Code, MCP, sandbox policies and Git, following November 2026 security updates.</summary>
     <title>GitHub Copilot Harness Security: Patch, Pin and Govern Your Coding Agents</title>
-    <updated>2026-11-25T08:46:38.930Z</updated>
+    <updated>2026-11-25T22:25:18.817Z</updated>
   </entry>
   <entry>
     <author>
@@ -113,7 +113,7 @@
     <published>2026-11-09T08:00:00.000Z</published>
     <summary>Microsoft saw an AI agent move from a GitHub secret search to Key Vault data theft in five minutes. Learn how keyless Azure AI reduces the risk.</summary>
     <title>AI Agents Exploit Leaked Keys in Minutes: Go Keyless on Azure</title>
-    <updated>2026-11-25T08:46:38.930Z</updated>
+    <updated>2026-11-25T22:25:18.816Z</updated>
   </entry>
   <entry>
     <author>
@@ -137,7 +137,7 @@
     <published>2026-11-02T20:00:00.000Z</published>
     <summary>Compare GitHub Copilot CLI, Local and cloud agents in 2026. Learn where the Copilot SDK fits, how sessions run, and what sub-agents and AI Credits cost.</summary>
     <title>GitHub Copilot CLI vs Local vs Cloud: Agents Explained (2026)</title>
-    <updated>2026-11-25T08:46:38.929Z</updated>
+    <updated>2026-11-25T22:25:18.816Z</updated>
   </entry>
   <entry>
     <author>
@@ -147,8 +147,8 @@
     <category term="Copilot" scheme="https://clouddev.blog/categories/GitHub/Copilot/"/>
     <category term="GitHub" scheme="https://clouddev.blog/tags/GitHub/"/>
     <category term="GitHub Copilot" scheme="https://clouddev.blog/tags/GitHub-Copilot/"/>
-    <category term="Agentic Engineering" scheme="https://clouddev.blog/tags/Agentic-Engineering/"/>
     <category term="AI Agents" scheme="https://clouddev.blog/tags/AI-Agents/"/>
+    <category term="Agentic Engineering" scheme="https://clouddev.blog/tags/Agentic-Engineering/"/>
     <content>
       <![CDATA[<p>GitHub Universe 2026 brought a stack of updates across Copilot, developer workflows, automation, security and platform engineering. I built a more entertaining way to catch up.</p><p>SHIP IT is a 3D arcade game with five sectors and all 41 announcements from Universe 2026. Fly through the sectors, collect announcement cores, blast the blockers and beat each boss with what you learned.</p><div class="ship-it-launch">  <p class="ship-it-launch__eyebrow">GitHub Universe 2026, playable</p>  <h2 class="ship-it-launch__title">Ready, player one?</h2>  <p class="ship-it-launch__copy">Open the game, launch your mission and discover the announcements on the way to the main branch.</p>  <p class="ship-it-launch__action">    <a class="ship-it-launch__play" href="/img/games/ship-it-universe-2026/index.htm" aria-label="Play SHIP IT, the GitHub Universe 2026 announcements game">Play SHIP IT</a>  </p>  <p class="ship-it-launch__note">No download. No sign-in. Keyboard and touch controls included.</p></div><h2 id="Your-mission"><a href="#Your-mission" class="headerlink" title="Your mission"></a>Your mission</h2><p>Each sector turns a major Universe theme into an arcade run. Collecting a core unlocks the announcement behind it, including the problem it solves, how it works, why it matters, availability and official links.</p><p>Miss an announcement and it circles back once. Finish a sector and you face a short quiz boss. Every answer, right or wrong, reveals the correct update, so the game keeps moving even when you miss one.</p><p>The Announcement Guide keeps everything you unlock in this browser. If you want the straight recap, open the Guide and turn on Show every announcement.</p><h2 id="How-to-play"><a href="#How-to-play" class="headerlink" title="How to play"></a>How to play</h2><ul><li>Use the left and right arrows or <code>A</code> and <code>D</code> to steer, then hold <code>Space</code> to fire.</li><li>Press <code>Enter</code> to start or continue, <code>1</code>, <code>2</code> or <code>3</code> to answer a boss question and <code>F</code> for fullscreen.</li><li>On a phone or tablet, swipe to steer and tap to fire. On-screen controls appear automatically.</li></ul><p>I designed and built SHIP IT as an independent interactive recap of GitHub Universe 2026. It is not an official GitHub product.</p><style>article.article .ship-it-launch {  position: relative;  isolation: isolate;  overflow: hidden;  margin: 2rem 0 2.5rem;  padding: clamp(2rem, 5vw, 3.5rem);  border: 1px solid rgba(255, 255, 255, 0.18);  border-radius: 1.5rem;  color: #f8fafc;  text-align: center;  background:    radial-gradient(circle at 15% 10%, rgba(103, 232, 249, 0.3), transparent 34%),    radial-gradient(circle at 88% 15%, rgba(240, 171, 252, 0.34), transparent 31%),    linear-gradient(145deg, #080a17, #151127 58%, #071826);  box-shadow: 0 22px 60px rgba(15, 23, 42, 0.24);}article.article .ship-it-launch::after {  position: absolute;  inset: 0;  z-index: -1;  content: "";  opacity: 0.32;  background-image:    linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);  background-size: 32px 32px;  mask-image: linear-gradient(to bottom, #000, transparent 76%);}article.article .ship-it-launch__eyebrow {  margin: 0 0 0.75rem;  color: #c4b5fd;  font-size: 0.78rem;  font-weight: 700;  letter-spacing: 0.2em;  text-transform: uppercase;}article.article .ship-it-launch__title {  margin: 0;  border: 0;  color: #fff;  font-size: clamp(2rem, 6vw, 3.8rem);  line-height: 1;}article.article .ship-it-launch__copy {  max-width: 42rem;  margin: 1.25rem auto 0;  color: #e2e8f0;  font-size: 1.08rem;}article.article .ship-it-launch__action {  margin: 1.75rem 0 0;}article.article .ship-it-launch__play {  display: inline-flex;  align-items: center;  justify-content: center;  gap: 0.8rem;  min-width: min(100%, 16rem);  padding: 1rem 1.5rem;  border: 1px solid rgba(255, 255, 255, 0.32);  border-radius: 999px;  color: #090713 !important;  background: linear-gradient(100deg, #67e8f9, #c4b5fd 54%, #f0abfc);  box-shadow: 0 0 0 rgba(240, 171, 252, 0);  font-size: 1.08rem;  font-weight: 800;  text-decoration: none;  transition: transform 160ms ease, box-shadow 160ms ease;}article.article .ship-it-launch__play::before {  width: 0;  height: 0;  border-top: 0.48rem solid transparent;  border-bottom: 0.48rem solid transparent;  border-left: 0.76rem solid #090713;  content: "";}article.article .ship-it-launch__play:hover {  color: #090713 !important;  transform: translateY(-2px);  box-shadow: 0 14px 36px rgba(240, 171, 252, 0.32);}article.article .ship-it-launch__play:focus-visible {  outline: 3px solid #fff;  outline-offset: 5px;}article.article .ship-it-launch__note {  margin: 1rem 0 0;  color: #cbd5e1;  font-size: 0.9rem;}@media (prefers-reduced-motion: reduce) {  article.article .ship-it-launch__play {    transition: none;  }  article.article .ship-it-launch__play:hover {    transform: none;  }}@media (max-width: 480px) {  article.article .ship-it-launch {    padding: 2rem 1.25rem;    border-radius: 1rem;  }  article.article .ship-it-launch__play {    width: 100%;  }}</style><span id="more"></span><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul><li><a href="https://github.com/events/universe/recap">GitHub Universe 2026 recap</a></li><li><a href="https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/">GitHub Universe 2026: Evolving every layer of the stack</a></li><li><a href="https://github.blog/changelog/label/universe26/">GitHub Universe 2026 changelog collection</a></li><li><a href="https://octoverse.github.com/">Octoverse 2026</a></li><li><a href="https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/">GitHub Copilot app: The agent-native desktop experience</a></li></ul><h2 id="Image-Credits"><a href="#Image-Credits" class="headerlink" title="Image Credits"></a>Image Credits</h2><ul><li>Cover image generated by Copilot</li></ul>]]>
     </content>
@@ -157,7 +157,7 @@
     <published>2026-10-29T20:00:00.000Z</published>
     <summary>Play SHIP IT, a 3D browser game that turns every GitHub Universe 2026 announcement into an interactive arcade mission. No download or sign-in required.</summary>
     <title>Play SHIP IT: The GitHub Universe 2026 Announcements Game</title>
-    <updated>2026-11-25T08:46:38.930Z</updated>
+    <updated>2026-11-25T22:25:18.817Z</updated>
   </entry>
   <entry>
     <author>
@@ -206,7 +206,7 @@
     <published>2026-06-25T12:00:00.000Z</published>
     <summary>A practical guide to AGENTS.md, Copilot instructions, Cursor rules, CLAUDE.md, GEMINI.md and skills. Choose the right context file, understand precedence, and see what the research says.</summary>
     <title>AGENTS.md vs Copilot Instructions vs Cursor Rules vs CLAUDE.md: Which AI Context File to Use, and When (2026)</title>
-    <updated>2026-11-25T08:46:38.909Z</updated>
+    <updated>2026-11-25T22:25:18.802Z</updated>
   </entry>
   <entry>
     <author>
@@ -258,7 +258,7 @@
 </blockquote>]]>
     </summary>
     <title>AI Engineering Coach: Measure How You Actually Code with AI</title>
-    <updated>2026-11-25T08:46:38.908Z</updated>
+    <updated>2026-11-25T22:25:18.802Z</updated>
   </entry>
   <entry>
     <author>
@@ -321,7 +321,7 @@
 </blockquote>]]>
     </summary>
     <title>Governance for AI Agents (Part 1): The Gap, the OWASP Agentic Top 10, and Where AGT Fits</title>
-    <updated>2026-11-25T08:46:38.908Z</updated>
+    <updated>2026-11-25T22:25:18.802Z</updated>
   </entry>
   <entry>
     <author>
@@ -330,8 +330,8 @@
     <category term="Azure" scheme="https://clouddev.blog/categories/Azure/"/>
     <category term="APIM" scheme="https://clouddev.blog/categories/Azure/APIM/"/>
     <category term="Azure" scheme="https://clouddev.blog/tags/Azure/"/>
-    <category term="Bicep" scheme="https://clouddev.blog/tags/Bicep/"/>
     <category term="Function Apps" scheme="https://clouddev.blog/tags/Function-Apps/"/>
+    <category term="Bicep" scheme="https://clouddev.blog/tags/Bicep/"/>
     <category term="APIM" scheme="https://clouddev.blog/tags/APIM/"/>
     <category term="API Management" scheme="https://clouddev.blog/tags/API-Management/"/>
     <category term="Performance" scheme="https://clouddev.blog/tags/Performance/"/>
@@ -380,7 +380,7 @@
     B_BEN --> Func</pre>]]>
     </summary>
     <title>APIM Backend Fan-out: Shared Backend + rewrite-uri vs One Backend Per API (A Real Benchmark)</title>
-    <updated>2026-11-25T08:46:38.908Z</updated>
+    <updated>2026-11-25T22:25:18.802Z</updated>
   </entry>
   <entry>
     <author>
@@ -419,7 +419,7 @@
     GW -->|"Unique IP per NS"| EXT["External Services"]</pre>]]>
     </summary>
     <title>AKS Static Egress Gateway: Per-Namespace Static Egress IPs</title>
-    <updated>2026-11-25T08:46:38.908Z</updated>
+    <updated>2026-11-25T22:25:18.802Z</updated>
   </entry>
   <entry>
     <author>
@@ -440,7 +440,7 @@
     <published>2026-01-09T11:00:00.000Z</published>
     <summary>A January 2026 snapshot of GitHub Copilot agent workflows, with November update notes and a link to Part 2 covering harnesses, cloud sandboxes and AI Credits.</summary>
     <title>The Four Types of GitHub Copilot Agents: Local, Background, Cloud, and Sub-Agents Explained</title>
-    <updated>2026-11-25T08:46:38.906Z</updated>
+    <updated>2026-11-25T22:25:18.801Z</updated>
   </entry>
   <entry>
     <author>
@@ -472,7 +472,7 @@
 <p>The answer turned out to be yes - with some clever memory management and containerization. This blog post walks through the complete process of dockerizing OmniControl to run efficiently on a 12GB consumer GPU.</p>]]>
     </summary>
     <title>Running FLUX.1 OmniControl on a Consumer GPU: A Docker Implementation tested on RTX 3060</title>
-    <updated>2026-11-25T08:46:38.906Z</updated>
+    <updated>2026-11-25T22:25:18.801Z</updated>
   </entry>
   <entry>
     <author>
@@ -555,7 +555,7 @@
     style data fill:#e8f5e9,stroke:#388e3c,stroke-width:2px</pre>]]>
     </summary>
     <title>Microsoft Foundry Cross-Region with Private Endpoints (Part 1)</title>
-    <updated>2026-11-25T08:46:38.906Z</updated>
+    <updated>2026-11-25T22:25:18.800Z</updated>
   </entry>
   <entry>
     <author>
@@ -623,7 +623,7 @@
 <h2 id="Understanding-Oh-My-Posh-The-Modern-Prompt-Engine"><a href="#Understanding-Oh-My-Posh-The-Modern-Prompt-Engine" class="headerlink" title="Understanding Oh My Posh: The Modern Prompt Engine"></a>Understanding Oh My Posh: The Modern Prompt Engine</h2><p>Before diving into the automation, it’s worth understanding what Oh My Posh brings to the table and why it’s become the de facto standard for PowerShell prompt customization.</p>]]>
     </summary>
     <title>Pimp My Terminal - Terminal Customization with Oh My Posh - A Cloud Native Terminal Setup</title>
-    <updated>2026-11-25T08:46:38.904Z</updated>
+    <updated>2026-11-25T22:25:18.800Z</updated>
   </entry>
   <entry>
     <author>
@@ -659,7 +659,7 @@
 <p><strong>Compliance and Security Scanning:</strong> Security tools and compliance scripts that rely on code search may miss important files if they’re not in the default branch.</p>]]>
     </summary>
     <title>Automating Searchable Branch Configuration in Azure DevOps Repos via REST API</title>
-    <updated>2026-11-25T08:46:38.904Z</updated>
+    <updated>2026-11-25T22:25:18.800Z</updated>
   </entry>
   <entry>
     <author>
@@ -753,7 +753,7 @@
 </ol>]]>
     </summary>
     <title>Building Voice Agents with Azure Communication Services Voice Live API and Azure AI Agent Service</title>
-    <updated>2026-11-25T08:46:38.904Z</updated>
+    <updated>2026-11-25T22:25:18.800Z</updated>
   </entry>
   <entry>
     <author>
@@ -787,7 +787,7 @@
 <p>The main challenge developers face is distinguishing between project metadata and actual TFVC repository structure. When calling the standard Projects API, you receive project information but not the folder structure within the TFVC repository itself.</p>]]>
     </summary>
     <title>Getting TFVC Repository Structure via Azure DevOps Server API</title>
-    <updated>2026-11-25T08:46:38.904Z</updated>
+    <updated>2026-11-25T22:25:18.800Z</updated>
   </entry>
   <entry>
     <author>
@@ -864,7 +864,7 @@
 <p>Lets check out how this was built and setup…</p>]]>
     </summary>
     <title>How We United 8 Developers Across Restricted Environments Using Azure VMs and Dev Containers</title>
-    <updated>2026-11-25T08:46:38.903Z</updated>
+    <updated>2026-11-25T22:25:18.800Z</updated>
   </entry>
   <entry>
     <author>
@@ -918,7 +918,7 @@
     style I fill:#fff3e0</pre>]]>
     </summary>
     <title>Custom Voices in Azure OpenAI Realtime with Azure Speech Services</title>
-    <updated>2026-11-25T08:46:38.903Z</updated>
+    <updated>2026-11-25T22:25:18.800Z</updated>
   </entry>
   <entry>
     <author>
@@ -955,7 +955,7 @@
 <p>The answer is <strong>yes, they come back</strong>, and <strong>no, you don’t have to write any code</strong>. Easy Auth handles it natively. This post walks through how, with HTTP traces captured byte-for-byte from a live deployment, all reproducible from the <a href="https://github.com/Ricky-G/azure-scenario-hub">Azure Scenario Hub</a>.</p>]]>
     </summary>
     <title>Preserving Custom Query String Parameters Through Azure App Service Easy Auth</title>
-    <updated>2026-11-25T08:46:38.903Z</updated>
+    <updated>2026-11-25T22:25:18.800Z</updated>
   </entry>
   <entry>
     <author>
@@ -986,7 +986,7 @@
 <p><img src="/Azure/Storage/Azurite/ignoring-azurite-files/azurite-files.png" alt="Azurite files"></p>]]>
     </summary>
     <title>Ignoring Azurite Files</title>
-    <updated>2026-11-25T08:46:38.902Z</updated>
+    <updated>2026-11-25T22:25:18.799Z</updated>
   </entry>
   <entry>
     <author>
@@ -1028,7 +1028,7 @@
     <title>
       <![CDATA[Extracting GZip & Tar Files Natively in .NET Without External Libraries]]>
     </title>
-    <updated>2026-11-25T08:46:38.936Z</updated>
+    <updated>2026-11-25T22:25:18.822Z</updated>
   </entry>
   <entry>
     <author>
@@ -1070,7 +1070,7 @@
 </ol>]]>
     </summary>
     <title>Unzipping and Shuffling GBs of Data Using Azure Functions</title>
-    <updated>2026-11-25T08:46:38.936Z</updated>
+    <updated>2026-11-25T22:25:18.822Z</updated>
   </entry>
   <entry>
     <author>
@@ -1100,7 +1100,7 @@
 <h2 id="Existing-Documentation-Limitations"><a href="#Existing-Documentation-Limitations" class="headerlink" title="Existing Documentation Limitations"></a>Existing Documentation Limitations</h2><p>While the existing documentation covers various aspects of Azure DevTest Labs, it lacks clear guidance on setting up policies with DevTest Labs in Bicep. This blog post aims to address that gap by providing a Bicep script for creating a DevTest Lab and applying policies to it. Shout out to my colleague <a href="https://www.linkedin.com/in/illian-yuan">Illian Y</a> for persisting and not giving up and finding a away around undocumented features and showing me.</p>]]>
     </summary>
     <title>Azure DevTest Labs Policies</title>
-    <updated>2026-11-25T08:46:38.935Z</updated>
+    <updated>2026-11-25T22:25:18.822Z</updated>
   </entry>
   <entry>
     <author>
@@ -1134,7 +1134,7 @@
 <h2 id="Ways-To-Change-Defaults"><a href="#Ways-To-Change-Defaults" class="headerlink" title="Ways To Change Defaults"></a>Ways To Change Defaults</h2><p>With that, here are a couple of quick ways to make sure your Logic App times out and terminates within the time frame you set. Lets say if we want our Logic App to run no more than 60 seconds at max then:</p>]]>
     </summary>
     <title>Azure Logic Apps Timeout</title>
-    <updated>2026-11-25T08:46:38.935Z</updated>
+    <updated>2026-11-25T22:25:18.820Z</updated>
   </entry>
   <entry>
     <author>
@@ -1171,7 +1171,7 @@
 <h2 id="Options-For-Running-Containers"><a href="#Options-For-Running-Containers" class="headerlink" title="Options For Running Containers"></a>Options For Running Containers</h2><p>So when it comes to running a container in Azure our main options are below<br><img src="/Azure/Container-Apps/create-a-multi-user-experience-for-single-threaded-applications-using-azure-container-apps/container-options.png" alt=" " title="Container Options"></p>]]>
     </summary>
     <title>Create A Multi User Experience For Single Threaded Applications Using Azure Container Apps</title>
-    <updated>2026-11-25T08:46:38.932Z</updated>
+    <updated>2026-11-25T22:25:18.819Z</updated>
   </entry>
   <entry>
     <author>
@@ -1213,7 +1213,7 @@
 <p>This post isn’t focused on the App Gateway itself, it’s more about how and what it can do as an ingress controller for AKS. <a href="https://docs.microsoft.com/en-us/azure/application-gateway/features">You can find out more about App Gateway and all abouts its features here</a></p>]]>
     </summary>
     <title>Application Gateway Ingress Controller For AKS</title>
-    <updated>2026-11-25T08:46:38.931Z</updated>
+    <updated>2026-11-25T22:25:18.817Z</updated>
   </entry>
   <entry>
     <author>
@@ -1222,8 +1222,8 @@
     <category term="GitHub" scheme="https://clouddev.blog/categories/GitHub/"/>
     <category term="Actions" scheme="https://clouddev.blog/categories/GitHub/Actions/"/>
     <category term="Azure" scheme="https://clouddev.blog/tags/Azure/"/>
-    <category term="Azure App Service" scheme="https://clouddev.blog/tags/Azure-App-Service/"/>
     <category term="Function Apps" scheme="https://clouddev.blog/tags/Function-Apps/"/>
+    <category term="Azure App Service" scheme="https://clouddev.blog/tags/Azure-App-Service/"/>
     <category term="Security" scheme="https://clouddev.blog/tags/Security/"/>
     <category term="GitHub" scheme="https://clouddev.blog/tags/GitHub/"/>
     <category term="CI/CD" scheme="https://clouddev.blog/tags/CI-CD/"/>
@@ -1250,7 +1250,7 @@
 <h2 id="Possible-Solutions"><a href="#Possible-Solutions" class="headerlink" title="Possible Solutions"></a>Possible Solutions</h2><p>There are two viable solutions here</p>]]>
     </summary>
     <title>Deploying To IP Restricted Azure Function Apps Using GitHub Actions</title>
-    <updated>2026-11-25T08:46:38.930Z</updated>
+    <updated>2026-11-25T22:25:18.817Z</updated>
   </entry>
   <entry>
     <author>
@@ -1260,8 +1260,8 @@
     <category term="Function Apps" scheme="https://clouddev.blog/categories/Azure/Function-Apps/"/>
     <category term="Security" scheme="https://clouddev.blog/categories/Azure/Function-Apps/Security/"/>
     <category term="Azure" scheme="https://clouddev.blog/tags/Azure/"/>
-    <category term="Azure App Service" scheme="https://clouddev.blog/tags/Azure-App-Service/"/>
     <category term="Function Apps" scheme="https://clouddev.blog/tags/Function-Apps/"/>
+    <category term="Azure App Service" scheme="https://clouddev.blog/tags/Azure-App-Service/"/>
     <category term="Security" scheme="https://clouddev.blog/tags/Security/"/>
     <category term="GitHub" scheme="https://clouddev.blog/tags/GitHub/"/>
     <category term="CI/CD" scheme="https://clouddev.blog/tags/CI-CD/"/>
@@ -1287,7 +1287,7 @@
 <p><img src="/Azure/Function-Apps/Security/securing-azure-functions-and-logic-apps/apim-azure-functions-backend.png" alt=" " title="Sample Scenario"></p>]]>
     </summary>
     <title>Securing Azure Functions and Logic Apps</title>
-    <updated>2026-11-25T08:46:38.906Z</updated>
+    <updated>2026-11-25T22:25:18.801Z</updated>
   </entry>
   <entry>
     <author>
@@ -1320,6 +1320,6 @@
 </ul>]]>
     </summary>
     <title>Hello World 👋</title>
-    <updated>2026-11-25T08:46:38.901Z</updated>
+    <updated>2026-11-25T22:25:18.799Z</updated>
   </entry>
 </feed>
